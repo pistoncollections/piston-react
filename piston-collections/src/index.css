@@ -1,34 +1,10 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: 'Alfa';
-  src: url('fonts/AlfaSlabOne-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'OpenSans';
-  src: url('fonts/OpenSans.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'OpenSans';
-  src: url('fonts/OpenSans-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
 @theme {
   --breakpoint-xl: 90rem;
 
-  --font-heading: "Alfa", "sans-serif";
-  --font-open: "OpenSans", "sans-serif";
+  --font-heading: "Alfa Slab One", serif;
+  --font-open: "Open Sans", sans-serif;
 
   /* Colors */
   --color-primary: #023A84;
